@@ -1,0 +1,11 @@
+# Create Resource Cards
+
+"""
+>>>> Create a card.
+        POST {{baseUrl}}/1/cards?idList=6557cd27cac95e9ed27e1eeb&name=SIGNUP&token={{token}}&key={{apiKey}}
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+"""

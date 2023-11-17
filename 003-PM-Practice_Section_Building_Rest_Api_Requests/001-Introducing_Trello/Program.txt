@@ -1,0 +1,16 @@
+# Introducing Trello
+
+"""
+>>>> Trello is a platform for teams to manage projects and task.
+        Reference Link: https://trello.com
+
+        Trello has an API that we can use.
+
+        Create a free account in Trello.
+        Consider signing up with Trello using a non-business email. 
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+"""

@@ -1,0 +1,20 @@
+# Api Authentication
+
+"""
+>>>> Register API client.
+        POST {{baseUrl}}/api-clients
+
+        Body
+        {
+            "clientName": "Demo",
+            "clientEmail": "ColteSteele@gmail.com"
+        }
+
+        We will get a accessToken
+        Add this accessToken in the collection variable.
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+"""

@@ -1,0 +1,11 @@
+# Other Resources
+
+"""
+>>>> Valentins Book List API.
+        Reference Link: https://github.com/vdespa/Postman-Complete-Guide-API-Testing/blob/main/valentines-book-list.md
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+"""

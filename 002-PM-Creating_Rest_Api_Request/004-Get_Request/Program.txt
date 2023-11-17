@@ -1,0 +1,12 @@
+# Get Request
+
+"""
+>>>> URL
+        Uniform Resource Locator.
+>>>> Get all products.
+        GET https://simple-grocery-store-api.glitch.me/products
+>>>>
+>>>>
+>>>>
+>>>>
+"""

@@ -1,0 +1,11 @@
+# Deleting Boards
+
+"""
+>>>> Delete board.
+        DELETE {{baseUrl}}/1/boards/:id?token={{token}}&key={{apiKey}}
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+"""

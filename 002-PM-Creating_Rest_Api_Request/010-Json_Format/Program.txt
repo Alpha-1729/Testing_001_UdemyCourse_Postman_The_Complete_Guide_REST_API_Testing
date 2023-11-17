@@ -1,0 +1,11 @@
+# Json Format
+
+"""
+>>>> Advantage of json format.
+        It is human readable.
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+"""

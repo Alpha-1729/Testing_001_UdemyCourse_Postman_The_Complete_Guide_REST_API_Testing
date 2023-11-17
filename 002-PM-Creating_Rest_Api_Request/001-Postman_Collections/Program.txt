@@ -1,0 +1,16 @@
+# Postman Collections
+
+"""
+>>>> Postman Collections
+        Collections is like a folder, which store multiple requests.
+>>>> Adding a request to a collection.
+        Click on the Save button near the request.
+        Add a request name.
+        Create a collection.
+        Click on Save.
+>>>> If you edit the request, Click on Save button to save it.
+>>>> You have also Save As option.
+        You can edit the current request and save as a new request.
+>>>>
+>>>>
+"""

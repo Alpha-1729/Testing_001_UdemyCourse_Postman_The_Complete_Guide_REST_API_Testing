@@ -1,0 +1,13 @@
+# Protect Api Keys
+
+"""
+>>>> Revoking a Trello token.
+        Reference Link: https://support.atlassian.com/trello/docs/revoking-a-trello-token/
+>>>> If you leave Postman API key in a public workspace.
+        Change the visibility of the workspace to private.
+        Refer the attached image.
+>>>>
+>>>>
+>>>>
+>>>>
+"""

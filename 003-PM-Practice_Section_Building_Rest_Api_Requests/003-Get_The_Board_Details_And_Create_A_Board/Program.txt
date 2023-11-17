@@ -1,0 +1,12 @@
+# Get The Board Details And Create A Board
+
+"""
+>>>> Get the board details.
+        GET https://api.trello.com/1/members/me/boards?key={{apiKey}}&token={{token}}
+>>>> Create a board.
+        POST {{baseUrl}}/1/boards?key={{apiKey}}&token={{token}}&name= First Test API
+>>>>
+>>>>
+>>>>
+>>>>
+"""

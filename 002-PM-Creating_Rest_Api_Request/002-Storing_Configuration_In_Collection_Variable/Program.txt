@@ -1,0 +1,16 @@
+# Storing Configuration In Collection Variable
+
+"""
+>>>> Significance of collection variable.
+        If we have 10 requests in a collection.
+        And the baseUrl of the API changes.
+        Then we have to change the baseUrl for all request in the collection.
+
+        Instead we can create a variable to store the baseUrl and use it.
+        Please refer the gif attached.
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+"""

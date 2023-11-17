@@ -1,0 +1,20 @@
+# Using Postman On Web
+
+"""
+>>>> Cloud agent:
+        Browser sent request to Postman cloud agent.
+        Cloud agent sent request to API.
+        There is some limitation for the number of requests that can be sent through cloud agent.
+        See attached image.
+>>>> Desktop Agent:
+        This is a small program that can be installed in the computer.
+        Which runs in background, which will initiate request from locally running Postman.
+        
+        Reference Link: https://www.postman.com/downloads/postman-agent/
+>>>> Browser Agent:
+        Sending request through the browser.
+        It will work only sometimes.
+>>>>
+>>>> 
+>>>>
+"""

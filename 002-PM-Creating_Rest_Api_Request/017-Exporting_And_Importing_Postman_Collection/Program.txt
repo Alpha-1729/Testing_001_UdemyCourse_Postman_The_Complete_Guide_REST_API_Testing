@@ -1,0 +1,14 @@
+# Exporting And Importing Postman Collection
+
+"""
+>>>> Two ways of importing Postman collection.
+        Via Postman API.
+        Export as file.
+
+        Refer the gif for more info.
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+"""

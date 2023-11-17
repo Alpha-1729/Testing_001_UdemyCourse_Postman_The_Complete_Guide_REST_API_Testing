@@ -1,0 +1,16 @@
+# Post Request With Json
+
+"""
+>>>> Add an item to cart.
+        {{baseUrl}}/carts/:cartId/items
+
+        Body
+        {
+            "productId": 4646
+        }
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+"""

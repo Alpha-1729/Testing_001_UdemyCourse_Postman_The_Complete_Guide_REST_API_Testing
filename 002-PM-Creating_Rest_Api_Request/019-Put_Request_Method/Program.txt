@@ -1,0 +1,17 @@
+# Put Request Method
+
+"""
+>>>> Replace an item in cart.
+        PUT {{baseUrl}}/carts/:cartId/items/:itemId
+
+        BODY
+        {
+            "productId": 8739,
+            "quantity": 1
+        }
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+"""

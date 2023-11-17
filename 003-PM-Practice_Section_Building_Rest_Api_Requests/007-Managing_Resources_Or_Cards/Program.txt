@@ -1,0 +1,11 @@
+# Managing Resources Or Cards
+
+"""
+>>>> Moving cards from one list to another.
+        PUT {{baseUrl}}/1/cards/:id?idList=6557cd08b98fdb3c44802dea&token={{token}}&key={{apiKey}}
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+"""

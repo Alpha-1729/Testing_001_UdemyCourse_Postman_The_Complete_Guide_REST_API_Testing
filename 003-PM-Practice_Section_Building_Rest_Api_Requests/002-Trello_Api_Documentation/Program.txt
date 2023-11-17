@@ -1,0 +1,28 @@
+# Trello Api Documentation
+
+"""
+>>>> Trello API Introduction.
+        Reference Link: https://developer.atlassian.com/cloud/trello/guides/rest-api/api-introduction/
+>>>> Generate Trello API key and Token.
+        Reference Link: https://trello.com/app-key
+
+        Go to above link.
+        Click on "Go to the Power-Up Admin Portal".
+        Click on New.
+        Fill all details and click on Create.
+        Click on "Generate a new API key".
+        Now API key is generated.
+
+        To generate the token, Click on <Token>  link on the right side of the API key.
+        Copy the token.
+
+        Set the apiKey and token as collection variable in postman.
+
+>>>> Trello API documentation.
+        Reference Link: https://developer.atlassian.com/cloud/trello/rest/
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+"""

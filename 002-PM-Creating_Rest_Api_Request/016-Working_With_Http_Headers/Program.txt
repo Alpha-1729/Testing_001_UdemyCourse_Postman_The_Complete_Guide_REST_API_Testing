@@ -1,0 +1,13 @@
+# Working With Http Headers
+
+"""
+>>>> Click on Headers tab below the request.
+>>>> Responses may also contain headers.
+>>>> You can also add custom headers in the request.
+        Refer the attached image.
+>>>> If you have to edit the predefined header created by Postman, You have to redefine it.
+        If you have to remove the predefined Authorization header, go to Authorization tab and change the authorization to NoAuth or InheritFromParent option.
+        Then you have to redefine the authorization header.
+>>>>
+>>>>
+""" 

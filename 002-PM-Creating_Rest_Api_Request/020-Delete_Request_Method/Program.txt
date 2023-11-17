@@ -1,0 +1,12 @@
+# Delete Request Method
+
+"""
+>>>> Delete an item in cart.
+        DELETE {{baseUrl}}/carts/:cartId/items/:itemId
+>>>> Delete an order.
+        DELETE {{baseUrl}}/orders/:orderId
+>>>>
+>>>>
+>>>>
+>>>>
+"""

@@ -1,0 +1,19 @@
+# Using Random Data In Requests Random Variable
+
+"""
+>>>> Create a random full name for placing an order.
+        POST {{baseUrl}}/orders
+
+        Body
+        {
+            "cartId": "u3WqNAVryoCMw36k2bRWV",
+            "customerName": "{{$randomFullName}}"
+        }
+
+        Please check the console for the full name generated.
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+"""

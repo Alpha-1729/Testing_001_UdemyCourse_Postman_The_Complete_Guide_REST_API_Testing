@@ -1,0 +1,18 @@
+# Modifying Collection Variable
+
+"""
+>>>> Refer the git attached.
+>>>> Difference between initial value and current value in collection variable.
+        When you share a collection with other teams, only the initial value will be shared with them.
+        Current Value:
+            This value will the used in the actual request.
+            This value is private and nobody can see it.
+        Initial Value:
+            You can type placeholder for password here.
+            Refer the attached image.
+>>>> If the color of the variable in the request is red.
+        It means that postman cannot resolve the variable.
+>>>> You can hover over the variable in the request to see the initial value, current value and scope of the variable.
+>>>>
+>>>>
+"""

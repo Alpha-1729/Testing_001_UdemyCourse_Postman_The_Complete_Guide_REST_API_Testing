@@ -1,0 +1,15 @@
+# Head Request Method
+
+"""
+>>>> Validating the end point.
+        HEAD {{baseUrl}}/products
+
+        We use HEAD to determine whether the endpoint is valid.
+        It is light weight.
+        We can use this to check whether the API is up or not.
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+"""
