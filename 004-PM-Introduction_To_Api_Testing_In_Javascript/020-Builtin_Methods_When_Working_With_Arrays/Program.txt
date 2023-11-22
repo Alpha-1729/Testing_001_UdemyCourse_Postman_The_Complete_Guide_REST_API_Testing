@@ -1,0 +1,16 @@
+# Builtin Methods When Working With Arrays
+
+"""
+>>>> Array:length
+        Reference Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length
+>>>> Array:pop()
+        Reference Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop
+>>>> Array:push()
+        Reference Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push
+>>>> Array:slice()
+        Reference Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
+>>>>
+>>>>
+>>>>
+>>>>
+"""

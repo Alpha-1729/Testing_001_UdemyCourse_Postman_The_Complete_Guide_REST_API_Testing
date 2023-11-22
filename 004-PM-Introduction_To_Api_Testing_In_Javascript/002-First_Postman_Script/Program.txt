@@ -1,0 +1,13 @@
+# First Postman Script
+
+"""
+>>>> Pre-request Script
+        Allow us to write some code that will be executed before the request is being send.
+        Open the console to view the log of the pre-request script.
+>>>> Scripts tab.
+        Code in the Scripts tab will be executed after the request is being send.
+>>>> In Postman we can use only javascript to write tests.
+>>>>
+>>>>
+>>>>
+"""

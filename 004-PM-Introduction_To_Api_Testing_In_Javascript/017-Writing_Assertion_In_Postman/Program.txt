@@ -1,0 +1,10 @@
+# Writing Assertion In Postman
+
+"""
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+"""

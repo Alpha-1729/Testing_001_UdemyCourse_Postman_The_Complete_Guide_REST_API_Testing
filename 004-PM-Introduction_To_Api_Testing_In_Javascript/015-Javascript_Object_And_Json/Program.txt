@@ -1,0 +1,14 @@
+# Javascript Object And Json
+
+"""
+>>>> JSON
+        JavaScript Object Notation
+        In Json we only store the properties of the object, not the behavior.
+>>>> JSON.parse()
+        Reference Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
+>>>> JSON.stringify()
+        Reference Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
+>>>>
+>>>>
+>>>>
+"""

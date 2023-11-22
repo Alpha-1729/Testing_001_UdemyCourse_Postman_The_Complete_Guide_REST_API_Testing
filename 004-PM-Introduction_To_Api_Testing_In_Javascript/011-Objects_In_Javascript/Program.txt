@@ -1,0 +1,11 @@
+# Objects In Javascript
+
+"""
+>>>> Object
+        Is a collection of related information.
+>>>>
+>>>>
+>>>>
+>>>>
+>>>> 
+"""

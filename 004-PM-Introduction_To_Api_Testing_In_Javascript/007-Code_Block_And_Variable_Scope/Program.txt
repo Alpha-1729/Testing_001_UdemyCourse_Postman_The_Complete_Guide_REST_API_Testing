@@ -1,0 +1,10 @@
+# Code Block And Variable Scope
+
+"""
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+"""

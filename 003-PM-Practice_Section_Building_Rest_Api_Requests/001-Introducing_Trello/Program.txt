@@ -6,7 +6,7 @@
 
         Trello has an API that we can use.
 
-        Create a free account in Trello.
+        Create a free account in Trello.  
         Consider signing up with Trello using a non-business email. 
 >>>>
 >>>>

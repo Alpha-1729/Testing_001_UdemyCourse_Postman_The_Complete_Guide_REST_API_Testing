@@ -1,0 +1,10 @@
+# Defining Javascript Variables
+
+"""
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+"""
