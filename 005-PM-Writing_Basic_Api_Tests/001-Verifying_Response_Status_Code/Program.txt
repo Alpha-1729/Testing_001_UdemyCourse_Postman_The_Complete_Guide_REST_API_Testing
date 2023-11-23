@@ -1,0 +1,12 @@
+# Verifying Response Status Code
+
+"""
+>>>> Functionality Testing
+        Checking the functionality of the API.
+            An API should return the correct response for the given request.
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+"""

@@ -1,0 +1,16 @@
+# Testing The Api Error Handling
+
+"""
+>>>> Happy Path testing.
+        Focus on verifying that the basic functionality of the API works. 
+            Get all products.
+            Add item to cart.
+            Create an order.
+>>>> Negative testing.
+        It focuses on testing how the API behaves in exceptional or edge cases.
+>>>> Postman allow us to add folders inside collection.
+        Any number of sub folders can be added inside the collection.
+>>>>
+>>>>
+>>>>
+"""

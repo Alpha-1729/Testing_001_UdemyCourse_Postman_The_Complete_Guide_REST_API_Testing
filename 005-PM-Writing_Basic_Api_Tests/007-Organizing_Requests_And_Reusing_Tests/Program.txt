@@ -1,0 +1,12 @@
+# Organizing Requests And Reusing Tests
+
+"""
+>>>> We can write a tests in the collection level and folder level.
+        All the tests mentioned in the collection/folder level will run if we run a request under a collection/folder.
+        See the gif for adding tests under collection/folder level.
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+"""

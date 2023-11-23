@@ -1,0 +1,12 @@
+# Postman Quick Reference Guide
+
+"""
+>>>> Reference Links:
+        https://postman-quick-reference-guide.readthedocs.io/en/latest/
+        https://postman-quick-reference-guide.readthedocs.io/_/downloads/en/latest/pdf/
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+"""
