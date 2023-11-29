@@ -8,8 +8,9 @@
 
         Instead we can create a variable to store the baseUrl and use it.
         Please refer the gif attached.
->>>>
->>>>
+>>>> Syntax for a variable in Postman.
+        {{baseUrl}}
+>>>> A variable created under a collection will be available for all requests under that collection.
 >>>>
 >>>>
 >>>>

@@ -7,6 +7,8 @@
         We use HEAD to determine whether the endpoint is valid.
         It is light weight.
         We can use this to check whether the API is up or not.
+        It will not do any database operation.
+        It is also used to check whether the authorization is correct or not
 >>>>
 >>>>
 >>>>

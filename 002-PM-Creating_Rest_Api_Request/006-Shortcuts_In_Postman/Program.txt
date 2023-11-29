@@ -7,11 +7,7 @@
         Click on a request.
         Ctrl + D
         Then rename the request name.
->>>> Request with path variable.
-        {{baseUrl}}/products/:productId
-
-        Postman will create a section named Path Variables.
-        Simply add a value to the productId under the path variable.
+>>>>
 >>>>
 >>>>
 >>>>

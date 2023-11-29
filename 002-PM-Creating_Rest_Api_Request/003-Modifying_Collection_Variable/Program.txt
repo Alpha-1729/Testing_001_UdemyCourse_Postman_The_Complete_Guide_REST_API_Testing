@@ -8,7 +8,7 @@
             This value will the used in the actual request.
             This value is private and nobody can see it.
         Initial Value:
-            You can type placeholder for password here.
+            You can type placeholder for passwords here.
             Refer the attached image.
 >>>> If the color of the variable in the request is red.
         It means that postman cannot resolve the variable.

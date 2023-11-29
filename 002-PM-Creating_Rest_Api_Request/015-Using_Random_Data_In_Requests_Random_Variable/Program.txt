@@ -11,7 +11,7 @@
         }
 
         Please check the console for the full name generated.
->>>>
+>>>> If you type {{random in the body. You will get more suggestion.
 >>>>
 >>>>
 >>>>

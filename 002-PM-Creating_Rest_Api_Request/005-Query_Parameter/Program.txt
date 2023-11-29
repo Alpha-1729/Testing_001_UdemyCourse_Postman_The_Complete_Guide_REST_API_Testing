@@ -6,6 +6,7 @@
 >>>> We can disable the query parameters by unchecking the checkbox near the query params key.
 >>>> The KEY and VALUE in the query params is case-sensitive.
 >>>> You can only use parameters that the API accepts.
->>>>
->>>>
+>>>> Query parameters are optional in a request.
+>>>> & separates two query parameters.
+        Eg: https://simple-grocery-store-api.glitch.me/products?category=dairy&name=cabbage
 """

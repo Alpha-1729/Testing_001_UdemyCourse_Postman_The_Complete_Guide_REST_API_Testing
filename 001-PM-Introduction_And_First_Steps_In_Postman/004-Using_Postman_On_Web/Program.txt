@@ -13,8 +13,8 @@
         Reference Link: https://www.postman.com/downloads/postman-agent/
 >>>> Browser Agent:
         Sending request through the browser.
-        It will work only sometimes.
->>>>
+        It will work only sometimes, because browser have some limitation.
+>>>> Agent option will only be shown in the Postman on web.
 >>>> 
 >>>>
 """
