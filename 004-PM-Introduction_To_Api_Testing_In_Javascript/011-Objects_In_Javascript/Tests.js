@@ -12,4 +12,4 @@ console.log(person.firstName);
 console.log(person.email);
 
 // Here we declare person object using const keyword, but we can add more properties to object.
-// But can reassign that object.
+// But can't reassign that object.

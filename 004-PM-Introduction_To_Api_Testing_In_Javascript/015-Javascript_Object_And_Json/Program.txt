@@ -3,6 +3,7 @@
 """
 >>>> JSON
         JavaScript Object Notation
+        Use only double quotes in JSON properties.
         In Json we only store the properties of the object, not the behavior.
 >>>> JSON.parse()
         Reference Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse

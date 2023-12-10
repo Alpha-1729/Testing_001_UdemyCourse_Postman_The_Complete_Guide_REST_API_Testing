@@ -5,7 +5,7 @@ const person = {
     age: 29,
     'is-married': false,
     sayHello: function () {
-        return 'Hello, my name is ' + this["first-name"];
+        return 'Hello, my name is ' + this['first-name'];
     }
 };
 

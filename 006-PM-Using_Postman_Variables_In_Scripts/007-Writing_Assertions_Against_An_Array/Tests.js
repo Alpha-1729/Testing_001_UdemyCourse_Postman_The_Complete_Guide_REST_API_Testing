@@ -35,6 +35,7 @@ pm.test("Created order is in the list using for each loop", function () {
 });
 
 // Using find method.
+// find method will return the found item in the array.
 pm.test("Created order is in the list using find method", function () {
     const response = pm.response.json();
     let order = response.find((order) => order.id === pm.collectionVariables.get('orderId'));

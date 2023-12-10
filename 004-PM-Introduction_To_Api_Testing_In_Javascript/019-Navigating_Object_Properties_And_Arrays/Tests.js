@@ -14,4 +14,4 @@ console.log(numbers.length);
 console.log(numbers[2]);
 
 // Getting the inner array in the array.
-console.log(person.socialProfiles[1]);
+console.log(person.socialProfiles[1]); 
