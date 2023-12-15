@@ -1,0 +1,22 @@
+# Test Driven Development
+
+"""
+>>>> TDD
+        It is a software development practice, in which the business requirements are converted into test cases before programming works.
+
+        In TDD:
+            1. WRITE TESTS.
+            2. WRITE CODE
+        
+        Why TDD:
+            TDD ensures that business requirements are documented in tests.
+            If there is a change in requirement or bug:
+                First change tests and then adapting the code.
+            TDD ensures better code quality.
+
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+"""

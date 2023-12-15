@@ -1,0 +1,10 @@
+# Environment Variables In Script
+
+"""
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+"""
