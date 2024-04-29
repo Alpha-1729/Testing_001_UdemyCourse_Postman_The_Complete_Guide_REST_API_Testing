@@ -1,22 +1,22 @@
 # First Postman Request
 
 """
->>>> References:
-        Simple Grocery Store API Documentation:
-            https://github.com/vdespa/Postman-Complete-Guide-API-Testing/blob/main/simple-grocery-store-api.md
+>>>> Simple Grocery Store API Documentation
+        Reference Link: https://github.com/vdespa/Postman-Complete-Guide-API-Testing/blob/main/simple-grocery-store-api.md
 
-        Document is also attached as pdf.
+        Document is also attached as pdf in resource folder.
 >>>> Get the status of the grocery store API.
         On Postman
         GET http://simple-grocery-store-api.online/status
         GET https://simple-grocery-store-api.glitch.me/status
 
-        OR
-
         On browser
         http://simple-grocery-store-api.online/status
 >>>> Click on the Console button on the bottom left corner to get more information like response time.
+        See the screenshot attached.
 >>>> If company network is blocking the request from the postman, try the Postman web version.
->>>> 
->>>>
+>>>> Endpoint
+        Endpoint are just different addresses within the API where we can find information.
+>>>> Encoding for white space character.
+        %20
 """

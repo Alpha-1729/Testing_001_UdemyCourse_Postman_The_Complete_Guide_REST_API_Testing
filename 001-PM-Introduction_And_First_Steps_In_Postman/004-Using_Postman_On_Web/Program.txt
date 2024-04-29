@@ -9,6 +9,7 @@
 >>>> Desktop Agent:
         This is a small program that can be installed in the computer.
         Which runs in background, which will initiate request from locally running Postman.
+        You can see the Desktop Agent in the system tray (bottom right corner).
         
         Reference Link: https://www.postman.com/downloads/postman-agent/
 >>>> Browser Agent:

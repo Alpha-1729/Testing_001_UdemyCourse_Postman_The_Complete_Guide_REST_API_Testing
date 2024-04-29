@@ -1,12 +1,12 @@
 # Introduction To Api
 
 """
->>>> API -> Application Programming Interface
+>>>> API (Application Programming Interface)
         Api is an interface to some data on a server typically stored in a database.
         This interface allows a program to communicate and thus exchange data with that server.
         API are designed to be used from programs.
         See the attached image.
->>>>
+>>>> Postman can connect to a server through API and exchange data.
 >>>>
 >>>>
 >>>>
