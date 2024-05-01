@@ -13,6 +13,8 @@
 >>>> If the color of the variable in the request is red.
         It means that postman cannot resolve the variable.
 >>>> You can hover over the variable in the request to see the initial value, current value and scope of the variable.
->>>>
->>>>
+>>>> Hide left side bar.
+        Click on the icon on the bottom left corner.
+>>>> How to delete a collection variable.
+        Refer the gif attached.
 """

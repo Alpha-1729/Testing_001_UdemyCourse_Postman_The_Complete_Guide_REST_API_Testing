@@ -6,6 +6,7 @@
 
         Postman will create a section named Path Variables.
         Simply add a value to the productId under the path variable.
+        Refer the screenshot attached.
 >>>>
 >>>>
 >>>>

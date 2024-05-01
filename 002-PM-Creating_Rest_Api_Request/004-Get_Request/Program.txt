@@ -5,8 +5,9 @@
         Uniform Resource Locator.
 >>>> Get all products.
         GET https://simple-grocery-store-api.glitch.me/products
->>>>
->>>>
+>>>> Endpoint
+        Endpoint is a specific URL representing a specific API resource or action.
+>>>> With GET request, we are only fetch/retrieve data.
 >>>>
 >>>>
 """

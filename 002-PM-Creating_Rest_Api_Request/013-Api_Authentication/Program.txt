@@ -11,10 +11,16 @@
         }
 
         We will get a accessToken
-        Add this accessToken in the collection variable.
+        Add this accessToken in the collection variable. ({{accessToken}})
 >>>> Template of a authorization token.
         Bearer accessToken
->>>>
+        You can see the authorization token sent by postman in the console.
+                Open Console.
+                See the value under Request Headers -> Authorization
+>>>> Adding authorization token in a request.
+        Got to authorization tab.
+        Select Bearer Token from the Type dropdown.
+        Add the {{accessToken}} in the token field.
 >>>>
 >>>>
 >>>>

@@ -8,8 +8,10 @@
         {
             "productId": 4646
         }
->>>>
->>>>
+>>>> Always choose JSON in the Body tab, while sending a POST request with body.
+>>>> Format JSON in Postman.
+        Use Alt + Shift + F.
+        OR use the Beautify button in the right middle portion.
 >>>>
 >>>>
 >>>>

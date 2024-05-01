@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "48d43d37-7065-4a9e-a044-c4f903fc8787",
+		"name": "Valentins Book List API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34609578"
+	},
+	"item": [
+		{
+			"name": "API Status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/status",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get book list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/books/lists?api-key={{api-key}}&list=non-fiction&page=3",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"",
+						"books",
+						"lists"
+					],
+					"query": [
+						{
+							"key": "api-key",
+							"value": "{{api-key}}"
+						},
+						{
+							"key": "list",
+							"value": "non-fiction"
+						},
+						{
+							"key": "page",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://valentines-book-list.glitch.me",
+			"type": "string"
+		},
+		{
+			"key": "api-key",
+			"value": "8fhg93xkjd38fhg834jdfgjd",
+			"type": "string"
+		}
+	]
+}

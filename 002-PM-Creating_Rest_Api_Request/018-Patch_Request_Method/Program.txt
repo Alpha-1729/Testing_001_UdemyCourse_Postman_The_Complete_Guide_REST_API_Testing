@@ -6,6 +6,7 @@
 >>>> Update an order.
         For that we use the patch http method.
         PATCH {{baseUrl}}/orders/:orderId
+        Add the required change in the body of the request.
         No response will be returned in this scenario.
         Check the status code to get the status of the request.
 >>>>

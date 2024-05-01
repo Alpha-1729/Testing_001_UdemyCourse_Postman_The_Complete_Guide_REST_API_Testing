@@ -10,7 +10,7 @@
             "customerName": "{{$randomFullName}}"
         }
 
-        Please check the console for the full name generated.
+        Please check request body in the console for the full name generated.
 >>>> If you type {{random in the body. You will get more suggestion.
 >>>>
 >>>>

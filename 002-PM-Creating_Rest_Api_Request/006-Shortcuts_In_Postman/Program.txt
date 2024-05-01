@@ -3,6 +3,7 @@
 """
 >>>> To get the list of all shortcuts in postman.
         Click on settings -> Shortcuts
+        Refer the gif attached.
 >>>> Duplicate a request under a collection.
         Click on a request.
         Ctrl + D
