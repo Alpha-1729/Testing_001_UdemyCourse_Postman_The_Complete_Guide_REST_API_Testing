@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "fb7b02ab-e9dd-45a3-a9ea-b213f8a6d431",
+		"_postman_id": "6677f902-4386-4f14-82a7-a673201a1c3a",
 		"name": "Trello API",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "29716144"
+		"_exporter_id": "34609578"
 	},
 	"item": [
 		{
@@ -12,7 +12,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{baseUrl}}/1/members/me/boards?key={{apiKey}}&token={{token}}",
+					"raw": "{{baseUrl}}/1/members/me/boards?key={{trelloKey}}&token={{trelloToken}}",
 					"host": [
 						"{{baseUrl}}"
 					],
@@ -25,11 +25,11 @@
 					"query": [
 						{
 							"key": "key",
-							"value": "{{apiKey}}"
+							"value": "{{trelloKey}}"
 						},
 						{
 							"key": "token",
-							"value": "{{token}}"
+							"value": "{{trelloToken}}"
 						}
 					]
 				}
@@ -37,12 +37,12 @@
 			"response": []
 		},
 		{
-			"name": "Create a board",
+			"name": "Create board",
 			"request": {
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "{{baseUrl}}/1/boards?key={{apiKey}}&token={{token}}&name=To Delete Board",
+					"raw": "{{baseUrl}}/1/boards?name=First Board&key={{trelloKey}}&token={{trelloToken}}",
 					"host": [
 						"{{baseUrl}}"
 					],
@@ -52,16 +52,16 @@
 					],
 					"query": [
 						{
+							"key": "name",
+							"value": "First Board"
+						},
+						{
 							"key": "key",
-							"value": "{{apiKey}}"
+							"value": "{{trelloKey}}"
 						},
 						{
 							"key": "token",
-							"value": "{{token}}"
-						},
-						{
-							"key": "name",
-							"value": "To Delete Board"
+							"value": "{{trelloToken}}"
 						}
 					]
 				}
@@ -74,7 +74,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{baseUrl}}/1/boards/:id?key={{apiKey}}&token={{token}}",
+					"raw": "{{baseUrl}}/1/boards/:id?key={{trelloKey}}&token={{trelloToken}}",
 					"host": [
 						"{{baseUrl}}"
 					],
@@ -86,17 +86,17 @@
 					"query": [
 						{
 							"key": "key",
-							"value": "{{apiKey}}"
+							"value": "{{trelloKey}}"
 						},
 						{
 							"key": "token",
-							"value": "{{token}}"
+							"value": "{{trelloToken}}"
 						}
 					],
 					"variable": [
 						{
 							"key": "id",
-							"value": "6557ccc7ab63cbcb9c0bd6d0"
+							"value": "{{boardId}}"
 						}
 					]
 				}
@@ -109,7 +109,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "{{baseUrl}}/1/lists?name=TODO&idBoard={{boardId}}&token={{token}}&key={{apiKey}}",
+					"raw": "{{baseUrl}}/1/lists?name=TODO&idBoard={{boardId}}&key={{trelloKey}}&token={{trelloToken}}",
 					"host": [
 						"{{baseUrl}}"
 					],
@@ -127,12 +127,12 @@
 							"value": "{{boardId}}"
 						},
 						{
-							"key": "token",
-							"value": "{{token}}"
+							"key": "key",
+							"value": "{{trelloKey}}"
 						},
 						{
-							"key": "key",
-							"value": "{{apiKey}}"
+							"key": "token",
+							"value": "{{trelloToken}}"
 						}
 					]
 				}
@@ -145,7 +145,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "{{baseUrl}}/1/lists?name=DONE&idBoard={{boardId}}&token={{token}}&key={{apiKey}}",
+					"raw": "{{baseUrl}}/1/lists?name=DONE&idBoard={{boardId}}&key={{trelloKey}}&token={{trelloToken}}",
 					"host": [
 						"{{baseUrl}}"
 					],
@@ -163,12 +163,12 @@
 							"value": "{{boardId}}"
 						},
 						{
-							"key": "token",
-							"value": "{{token}}"
+							"key": "key",
+							"value": "{{trelloKey}}"
 						},
 						{
-							"key": "key",
-							"value": "{{apiKey}}"
+							"key": "token",
+							"value": "{{trelloToken}}"
 						}
 					]
 				}
@@ -176,12 +176,12 @@
 			"response": []
 		},
 		{
-			"name": "Create SIGNUP card",
+			"name": "Create card",
 			"request": {
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "{{baseUrl}}/1/cards?idList=6557cd27cac95e9ed27e1eeb&name=SIGNUP&token={{token}}&key={{apiKey}}",
+					"raw": "{{baseUrl}}/1/cards?key={{trelloKey}}&token={{trelloToken}}&idList=6633fa73bdbcbf2727c6a725&name=Sign-up for Trello",
 					"host": [
 						"{{baseUrl}}"
 					],
@@ -191,20 +191,20 @@
 					],
 					"query": [
 						{
-							"key": "idList",
-							"value": "6557cd27cac95e9ed27e1eeb"
-						},
-						{
-							"key": "name",
-							"value": "SIGNUP"
+							"key": "key",
+							"value": "{{trelloKey}}"
 						},
 						{
 							"key": "token",
-							"value": "{{token}}"
+							"value": "{{trelloToken}}"
 						},
 						{
-							"key": "key",
-							"value": "{{apiKey}}"
+							"key": "idList",
+							"value": "6633fa73bdbcbf2727c6a725"
+						},
+						{
+							"key": "name",
+							"value": "Sign-up for Trello"
 						}
 					]
 				}
@@ -212,12 +212,12 @@
 			"response": []
 		},
 		{
-			"name": "Move cart to DONE list",
+			"name": "Move card to DONE list",
 			"request": {
 				"method": "PUT",
 				"header": [],
 				"url": {
-					"raw": "{{baseUrl}}/1/cards/:id?idList=6557cd08b98fdb3c44802dea&token={{token}}&key={{apiKey}}",
+					"raw": "{{baseUrl}}/1/cards/:id?key={{trelloKey}}&token={{trelloToken}}&idList=6633fa7e8da90d22df35cb44",
 					"host": [
 						"{{baseUrl}}"
 					],
@@ -228,22 +228,22 @@
 					],
 					"query": [
 						{
-							"key": "idList",
-							"value": "6557cd08b98fdb3c44802dea"
+							"key": "key",
+							"value": "{{trelloKey}}"
 						},
 						{
 							"key": "token",
-							"value": "{{token}}"
+							"value": "{{trelloToken}}"
 						},
 						{
-							"key": "key",
-							"value": "{{apiKey}}"
+							"key": "idList",
+							"value": "6633fa7e8da90d22df35cb44"
 						}
 					],
 					"variable": [
 						{
 							"key": "id",
-							"value": "6557ce39f711a972080f7c46"
+							"value": "6633fa9b12a8b75cb182a269"
 						}
 					]
 				}
@@ -251,12 +251,12 @@
 			"response": []
 		},
 		{
-			"name": "Delete single board",
+			"name": "Delete board",
 			"request": {
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "{{baseUrl}}/1/boards/:id?token={{token}}&key={{apiKey}}",
+					"raw": "{{baseUrl}}/1/boards/:id?key={{trelloKey}}&token={{trelloToken}}",
 					"host": [
 						"{{baseUrl}}"
 					],
@@ -267,18 +267,57 @@
 					],
 					"query": [
 						{
-							"key": "token",
-							"value": "{{token}}"
+							"key": "key",
+							"value": "{{trelloKey}}"
 						},
 						{
-							"key": "key",
-							"value": "{{apiKey}}"
+							"key": "token",
+							"value": "{{trelloToken}}"
 						}
 					],
 					"variable": [
 						{
 							"key": "id",
-							"value": "6557d28d60e9d9eaaa81cfe6"
+							"value": "{{boardId}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get deleted board",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/1/boards/:id?name=First Board&key={{trelloKey}}&token={{trelloToken}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"1",
+						"boards",
+						":id"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "First Board"
+						},
+						{
+							"key": "key",
+							"value": "{{trelloKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{trelloToken}}"
+						}
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "{{boardId}}"
 						}
 					]
 				}
@@ -291,6 +330,7 @@
 			"listen": "prerequest",
 			"script": {
 				"type": "text/javascript",
+				"packages": {},
 				"exec": [
 					""
 				]
@@ -300,6 +340,7 @@
 			"listen": "test",
 			"script": {
 				"type": "text/javascript",
+				"packages": {},
 				"exec": [
 					""
 				]
@@ -308,13 +349,13 @@
 	],
 	"variable": [
 		{
-			"key": "apiKey",
-			"value": "",
+			"key": "trelloToken",
+			"value": "ADD TOKEN HERE",
 			"type": "string"
 		},
 		{
-			"key": "token",
-			"value": "",
+			"key": "trelloKey",
+			"value": "ADD API_KEY HERE",
 			"type": "string"
 		},
 		{
@@ -324,8 +365,7 @@
 		},
 		{
 			"key": "boardId",
-			"value": "",
-			"type": "string"
+			"value": "ENTER BOARD ID HERE"
 		}
 	]
 }

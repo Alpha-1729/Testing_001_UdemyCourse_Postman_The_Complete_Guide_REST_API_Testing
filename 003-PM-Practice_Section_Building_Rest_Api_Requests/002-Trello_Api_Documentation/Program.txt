@@ -20,7 +20,7 @@
 
 >>>> Trello API documentation.
         Reference Link: https://developer.atlassian.com/cloud/trello/rest/
->>>> AOI base url.
+>>>> API base url.
         https://api.trello.com
 >>>> Notation for a path variable in API.
         GET {{baseUrl}}/1/boards/{id}
