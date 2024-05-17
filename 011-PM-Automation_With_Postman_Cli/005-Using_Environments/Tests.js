@@ -8,7 +8,7 @@
 >>>> How to get the environment id.
         Click on the environment.
         Choose the environment.
-        Click on the info button in the environment page.
+        Click on the info button(right top) in the environment page.
 >>>> Run a collection with environment.
         postman collection run collection_id -e environment_id
 >>>>

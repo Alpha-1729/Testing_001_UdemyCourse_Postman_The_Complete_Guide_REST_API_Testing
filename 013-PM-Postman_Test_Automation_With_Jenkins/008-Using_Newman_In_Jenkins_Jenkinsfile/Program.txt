@@ -1,0 +1,10 @@
+# Using Newman In Jenkins Jenkinsfile
+
+"""
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+>>>>
+"""

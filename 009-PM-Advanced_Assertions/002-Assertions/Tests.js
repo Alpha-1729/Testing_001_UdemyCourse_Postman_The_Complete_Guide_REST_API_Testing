@@ -19,6 +19,14 @@ pm.test('Status should be 200', () => {
     let b = {
         "name": "Jane"
     };
+
+    // This will compare the each property of the object.
+    pm.expect(a).to.eql(b);
+
+    // This will compare the entire object.
+    // Assertion will be false, even all the properties are same.
+    pm.expect(a).to.equal(b);
+    
     pm.expect(a).to.not.equal(b);
 
     // Assertion on null and undefined and empty array.

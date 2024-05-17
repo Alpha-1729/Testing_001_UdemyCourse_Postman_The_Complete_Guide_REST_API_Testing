@@ -1,3 +1,5 @@
+// Function without a name is called anonymous function in javascript.
+
 const sayHello = function () {
     console.log('Hello');
 }

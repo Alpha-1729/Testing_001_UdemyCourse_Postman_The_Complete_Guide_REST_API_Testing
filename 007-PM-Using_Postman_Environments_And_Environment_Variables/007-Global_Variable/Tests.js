@@ -1,7 +1,9 @@
 /*
 >>>> Global variables will be available for all requests and collections in a workspace.
->>>>
->>>>
+>>>> If we have a variable in collection, environment and global level.
+		pm.variables.get() will give the environment varible.
+>>>> If there is only the variable in the global scope.
+		pm.variables.get() will give the global variable
 >>>>
 >>>>
 */

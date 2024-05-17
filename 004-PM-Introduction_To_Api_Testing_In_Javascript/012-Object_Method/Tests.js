@@ -7,3 +7,5 @@ const person = {
 };
 
 console.log(person.sayHello());
+
+// Functions inside the object are called methods.

@@ -1,8 +1,12 @@
 # Postman Environments And Environment Variables
 
 """
->>>>
->>>>
+>>>> baseUrl for the testing environment.
+		Reference Link: https://simple-grocery-store-api-testing.glitch.me/
+>>>> Once a environment is selected in the postman, all the collections in the postman will use the variables mentioned in the environment.
+		Always hover over the variable to check whether the variable is a collection or environment variable.
+		Also don't use the same variable name in all collection.
+			Eg: trelloBaseUrl instead of baseUrl.
 >>>>
 >>>>
 >>>>

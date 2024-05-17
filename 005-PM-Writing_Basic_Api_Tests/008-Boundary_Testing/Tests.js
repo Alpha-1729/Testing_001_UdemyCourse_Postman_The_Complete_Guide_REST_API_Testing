@@ -1,5 +1,5 @@
 /*
->>>> You can escape the single quotes using backslash.
+>>>> You can escape the single quotes using backslash or using double quotes.
 >>>>
 >>>>
 >>>>

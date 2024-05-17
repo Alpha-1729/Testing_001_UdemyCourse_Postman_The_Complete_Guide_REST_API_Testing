@@ -2,7 +2,7 @@
 
 """
 >>>> Postman allow us to add a documentation at request level.
-        At folder/collection level we can add comments.
+        At folder/collection level also we can add comments.
         See the gif for more details.
 >>>> Add API documentation in Postman.
         Reference Link: https://learning.postman.com/docs/publishing-your-api/documenting-your-api/#documenting-a-collection

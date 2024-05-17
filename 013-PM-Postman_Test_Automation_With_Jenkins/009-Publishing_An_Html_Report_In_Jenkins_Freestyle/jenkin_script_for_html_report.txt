@@ -1,0 +1,3 @@
+To properly display the HTML reports in Jenkins run the following script in Jenkins Dashboard > Manage Jenkins > Script Console:
+
+System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "sandbox allow-scripts;")

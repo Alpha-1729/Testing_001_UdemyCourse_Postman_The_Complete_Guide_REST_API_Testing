@@ -1,7 +1,7 @@
 # Writing Assertion In Postman
 
 """
->>>>
+>>>> Test will pass, if there is no assertion inside the test.
 >>>>
 >>>>
 >>>>

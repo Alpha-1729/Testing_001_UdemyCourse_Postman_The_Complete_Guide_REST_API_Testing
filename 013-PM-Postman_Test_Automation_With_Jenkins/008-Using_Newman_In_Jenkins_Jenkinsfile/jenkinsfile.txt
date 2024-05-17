@@ -1,0 +1,17 @@
+pipeline {
+  agent any
+    // Getting the api from the credential.
+    environment {
+        POSTMAN_API_KEY = credentials("postman-api-key")
+    }
+
+  stages {
+
+    stage('Running collection') {
+      steps {
+        sh 'newman --version'
+        sh 'newman run https://api.postman.com/collections/34609578-70fa0f48-0a4d-423f-94ce-95279925788a?access_key=$POSTMAN_API_KEY'
+        }
+    }
+  }
+}

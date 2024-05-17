@@ -2,7 +2,7 @@
 
 """
 >>>> JSON
-        JavaScript Object Notation
+        JavaScript Object Notation  (It has some similarity with the Javascript object)
         Use only double quotes in JSON properties.
         In Json we only store the properties of the object, not the behavior.
 >>>> JSON.parse()

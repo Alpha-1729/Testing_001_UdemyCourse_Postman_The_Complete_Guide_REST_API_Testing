@@ -19,6 +19,7 @@ console.log('21' == 21);
 
 // Other scenario.
 let age = 20;
-// age variable will be updated in this scenario.
+// age variable will be updated in the scenario below.
+// Use triple equal for comparison.
 console.log(age = 21);
 console.log(age);
