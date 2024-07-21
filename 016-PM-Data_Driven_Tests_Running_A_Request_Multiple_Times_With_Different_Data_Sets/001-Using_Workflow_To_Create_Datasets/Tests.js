@@ -9,3 +9,17 @@
 >>>>
 >>>>
 */
+
+var iterationData = pm.environment.get("iterationData");
+
+if (iterationData && iterationData.length > 0) {
+    postman.setNextRequest("Create company");
+} else {
+    postman.setNextRequest(null);
+}
+
+
+
+pm.test("Content-Type is present", function () {
+    pm.response.to.have.header("Content-Type");
+});
