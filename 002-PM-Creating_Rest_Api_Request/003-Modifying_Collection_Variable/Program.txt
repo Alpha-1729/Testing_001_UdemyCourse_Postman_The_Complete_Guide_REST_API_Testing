@@ -1,7 +1,7 @@
 # Modifying Collection Variable
 
 """
->>>> Refer the git attached.
+>>>> Refer the gif attached.
 >>>> Difference between initial value and current value in collection variable.
         When you share a collection with other teams, only the initial value will be shared with them.
         Current Value:
