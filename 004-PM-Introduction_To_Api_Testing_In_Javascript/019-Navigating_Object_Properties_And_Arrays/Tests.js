@@ -7,7 +7,7 @@ const person = {
     socialProfiles: ['Facebook', 'Whatsapp', 'Instagram']
 };
 
-// Getting the length of the array.
+// Getting the length of the array. 
 console.log(numbers.length);
 
 // Printing the third element in the array.

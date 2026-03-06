@@ -7,3 +7,11 @@ console.log(parseInt('4.56'));
 // Output will be NaN(Not a Number)
 // When we multiply a undefined value with a number, result will be NaN.
 console.log(parseInt('Peter') * 3);
+
+// Generate a random number.
+function getRandomNumber(maxValue) {
+    let random = Math.random() * maxValue;
+    return Math.floor(random);
+}
+
+console.log(getRandomNumber(100));
