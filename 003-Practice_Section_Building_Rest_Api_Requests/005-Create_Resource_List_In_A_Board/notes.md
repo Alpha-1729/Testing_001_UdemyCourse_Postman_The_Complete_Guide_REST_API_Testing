@@ -1,0 +1,4 @@
+# Create Resource List In A Board
+
+- Create a resource list.
+  - `POST` `{{baseUrl}}/1/lists?name=DONE&idBoard={{boardId}}&token={{token}}&key={{apiKey}}`

@@ -1,0 +1,4 @@
+# Get Single Board Details
+
+- Get single board details.
+  - `GET` `{{baseUrl}}/1/boards/:id?key={{apiKey}}&token={{token}}`
