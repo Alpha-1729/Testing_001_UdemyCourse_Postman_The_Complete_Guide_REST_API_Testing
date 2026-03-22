@@ -1,14 +1,16 @@
 /*
->>>> Install Newman.
-        Install latest LTS version of the NodeJS.
-        npm install -g newman
-        newman --version
->>>> Install Newman in MacOS.
-        brew install newman
->>>> Node.js
-        NodeJS is a JavaScript runtime environment that can execute JavaScript without opening browser.
-        Newman runs inside the NodeJS runtime environment.
->>>> Checking node version
-        node --version
->>>>
-*/
+ * Node.js
+ * A JavaScript runtime environment that executes JavaScript without a browser.
+ * Newman runs inside the Node.js runtime environment.
+ *
+ * Install Newman (Windows/Linux):
+ *   1. Install the latest LTS version of Node.js — https://nodejs.org/en
+ *   2. npm install -g newman
+ *   3. newman --version
+ *
+ * Install Newman (macOS):
+ *   brew install newman
+ *
+ * Check Node.js version:
+ *   node --version
+ */
