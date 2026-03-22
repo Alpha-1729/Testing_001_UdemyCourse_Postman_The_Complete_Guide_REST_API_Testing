@@ -1,0 +1,12 @@
+# Installation
+
+- Create an account on Postman.
+- Download Postman for windows:
+  - Reference Link: <https://www.postman.com/downloads/>
+- To use web version of Postman
+  - Go to <https://identity.getpostman.com/login>
+- Setting dark theme in Postman.
+  - Settings -> Themes -> Select Dark theme.
+- How to use Postman.
+  - Click on Workspaces -> My Workspace
+- You can use the `Bulk Edit` feature to add multiple query params at once by copy and paste.
