@@ -1,10 +1,1 @@
 # Using External Data Files Basic Usage
-
-"""
->>>>
->>>>
->>>>
->>>>
->>>>
->>>>
-"""
