@@ -1,10 +1,1 @@
 # Navigating Object Properties And Arrays
-
-"""
->>>>
->>>>
->>>>
->>>>
->>>>
->>>>
-"""

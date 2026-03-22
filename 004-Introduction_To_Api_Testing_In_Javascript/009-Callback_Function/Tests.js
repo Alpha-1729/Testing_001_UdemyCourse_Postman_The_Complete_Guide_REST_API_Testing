@@ -1,18 +1,17 @@
-// Passing function as an argument to another function.
-
+// Passing a function as an argument to another function is called a callback.
 const announceBreakfast = () => {
-    console.log('Breakfast is ready!');
-}
+    console.log("Breakfast is ready!");
+};
 
 function makeBreakfast(callbackFunction) {
-    console.log('Starting to make breakfast');
-    callbackFunction();
-    console.log('Serving coffee');
+    console.log("Starting to make breakfast");
+    callbackFunction(); // callback is invoked here
+    console.log("Serving coffee");
 }
 
-// Passing function to another function.
+// Passing a function reference (not invoking it) as an argument.
 makeBreakfast(announceBreakfast);
 
-// Using the inbuilt callback function.
-setTimeout(announceBreakfast, 5000);  // This function will be called after 5 seconds.
-console.log("Program ended");
+// setTimeout — built-in function that accepts a callback and a delay in milliseconds.
+setTimeout(announceBreakfast, 5000); // executes announceBreakfast after 5 seconds
+console.log("Program ended"); // this runs immediately, before the setTimeout callback

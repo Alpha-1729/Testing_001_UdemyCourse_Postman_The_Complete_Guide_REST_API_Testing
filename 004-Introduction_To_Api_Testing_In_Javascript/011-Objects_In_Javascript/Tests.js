@@ -1,15 +1,16 @@
 const person = {
-    firstName: 'Jamie',
-    lastName: 'Doe',
+    firstName: "Jamie",
+    lastName: "Doe",
     age: 29,
-    isMarried: false
+    isMarried: false,
 };
 
-// Adding new property to object.
-person.email = 'test@gmail.com';
+// Adding a new property to an object.
+person.email = "test@gmail.com";
 
-console.log(person.firstName);
-console.log(person.email);
+console.log(person.firstName); // "Jamie"
+console.log(person.email);     // "test@gmail.com"
 
-// Here we declare person object using const keyword, but we can add more properties to object.
-// But can't reassign that object.
+// const prevents reassigning the variable, but object properties can still be modified.
+// person = {}; ❌ — cannot reassign
+// person.email = "..."; ✅ — can modify properties

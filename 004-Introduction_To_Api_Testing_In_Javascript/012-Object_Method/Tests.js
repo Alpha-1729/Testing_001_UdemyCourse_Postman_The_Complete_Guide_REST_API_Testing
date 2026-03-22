@@ -1,11 +1,11 @@
 const person = {
-    firstName: 'Jamie',
-    lastName: 'Doe',
+    firstName: "Jamie",
+    lastName: "Doe",
     age: 29,
     isMarried: false,
-    sayHello: () => 'Hello'
+    sayHello: () => "Hello", // method — a function defined inside an object
 };
 
-console.log(person.sayHello());
+console.log(person.sayHello()); // "Hello"
 
-// Functions inside the object are called methods.
+// A function inside an object is called a method.

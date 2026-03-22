@@ -1,12 +1,13 @@
-// Code block starts with a curly brace.
-// If we doesn't declare a variable in the code block, it will use the variable in the global scope.
+// A code block is defined using curly braces { }.
+// Variables declared with let/const inside a block are block-scoped.
+// If no variable is declared inside the block, it uses the one from the outer scope.
 
-let firstName = 'Jamie';
+let firstName = "Jamie";
 
 {
-    // This a code block.
-    let firstName = 'Peter';
-    console.log(firstName);
+    // This is a code block.
+    let firstName = "Peter"; // block-scoped — does not affect outer firstName
+    console.log(firstName); // "Peter"
 }
 
-console.log(firstName);
+console.log(firstName); // "Jamie"

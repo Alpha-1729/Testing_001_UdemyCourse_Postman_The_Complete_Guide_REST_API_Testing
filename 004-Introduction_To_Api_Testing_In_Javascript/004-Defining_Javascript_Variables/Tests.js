@@ -1,6 +1,6 @@
 // Variables.
 var agent = 'Jamie';
-let age = 29;  // Modern way using let keyw ord
+let age = 29;  // Modern way using let keyword
 let email;
 
 console.log(agent, age, email);

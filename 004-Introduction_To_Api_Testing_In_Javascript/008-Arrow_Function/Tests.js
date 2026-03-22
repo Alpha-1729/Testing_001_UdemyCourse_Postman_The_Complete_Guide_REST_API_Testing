@@ -1,17 +1,16 @@
-// Function without a name is called anonymous function in javascript.
-
+// Anonymous function — a function without a name, assigned to a variable.
 const sayHello = function () {
-    console.log('Hello');
-}
+    console.log("Hello");
+};
 
-// Arrow function.
+// Arrow function — a shorter syntax for anonymous functions.
 const sayHi = (name) => {
-    console.log('Hi ' + name);
-}
+    console.log("Hi " + name);
+};
 
-// One liner arrow function.
+// One-liner arrow function — no curly braces needed for a single expression.
 const add = (a, b) => a + b;
 
-sayHello();
-sayHi('Jamie');
-console.log(add(2, 3));
+sayHello();          // "Hello"
+sayHi("Jamie");      // "Hi Jamie"
+console.log(add(2, 3)); // 5

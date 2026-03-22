@@ -1,10 +1,1 @@
 # Storing A List Of Item Arrays In Javascript
-
-"""
->>>>
->>>>
->>>>
->>>>
->>>>
->>>>
-"""

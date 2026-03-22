@@ -15,5 +15,4 @@ console.log(numbers.pop());
 // Get the first item in the array and remove the first item in the array.
 console.log(numbers.shift());
 
-
 console.log(numbers);
