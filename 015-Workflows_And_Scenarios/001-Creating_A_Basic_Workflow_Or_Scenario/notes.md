@@ -1,10 +1,1 @@
 # Creating A Basic Workflow Or Scenario
-
-"""
->>>>
->>>>
->>>>
->>>>
->>>>
->>>>
-"""

@@ -1,10 +1,1 @@
 # Multiple Workflow With Same Collection
-
-"""
->>>>
->>>>
->>>>
->>>>
->>>>
->>>>
-"""
