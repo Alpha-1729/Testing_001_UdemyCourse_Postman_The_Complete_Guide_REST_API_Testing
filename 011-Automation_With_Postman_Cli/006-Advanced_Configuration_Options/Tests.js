@@ -1,29 +1,28 @@
 /*
->>>> Postman CLI command options.
-        References Link:
-            https://learning.postman.com/docs/postman-cli/postman-cli-options/
-            https://learning.postman.com/docs/postman-cli/postman-cli-options/#running-collections
-
->>>> --bail
-        If will stop execution on the first error.
->>>> --env-var
-        postman collection run collection_id --bail --env-var "baseUrl=https://www.google.com"
-        This variable will be resolved in the collection run.
->>>> -i 
-        Run the requests under a folder.
-            postman collection run collection_id -i folder_id
-        Run the requests under multiple folders.
-            postman collection run collection_id -i folder_id -i folder_id
-        How to get the folder id.
-            Click on the folder.
-            Click on the info icon to get the folder id.
-        Run requests with folder name.
-            postman collection run collection_id -i folder_name
->>>> --insecure, -k
-        Turn off SSL verification checks and allows self-signed SSL certificates.
->>>> --verbose
-        Shows detailed information of collection run and each request sent.    
->>>>    
->>>>    
-
-*/
+ * Postman CLI Command Options.
+ * Reference Link : https://learning.postman.com/docs/postman-cli/postman-cli-options/
+ * Reference Link : https://learning.postman.com/docs/postman-cli/postman-cli-options/#running-collections
+ *
+ * --bail
+ *   Stops execution on the first error.
+ *
+ * --env-var
+ *   Pass an environment variable to the collection run.
+ *   postman collection run collection_id --bail --env-var "baseUrl=https://www.google.com"
+ *
+ * -i
+ *   Run requests under a specific folder.
+ *     postman collection run collection_id -i folder_id
+ *   Run requests under multiple folders.
+ *     postman collection run collection_id -i folder_id -i folder_id
+ *   Run requests by folder name.
+ *     postman collection run collection_id -i folder_name
+ *   How to get the folder_id:
+ *     Click on the folder → Click on the Info icon.
+ *
+ * --insecure, -k
+ *   Turns off SSL verification and allows self-signed SSL certificates.
+ *
+ * --verbose
+ *   Shows detailed information of the collection run and each request sent.
+ */

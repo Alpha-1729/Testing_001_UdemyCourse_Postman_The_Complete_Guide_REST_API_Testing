@@ -1,16 +1,16 @@
 /*
->>>> Using environments with Postman CLI.
-        Choose the collection.
-        Click on three dots.
-        Click on run collections option.
-        Choose the environment on the top right corner.
-        Copy the collection run url, which contain the environment id.
->>>> How to get the environment id.
-        Click on the environment.
-        Choose the environment.
-        Click on the info button(right top) in the environment page.
->>>> Run a collection with environment.
-        postman collection run collection_id -e environment_id
->>>>
->>>>
-*/
+ * Using environments with Postman CLI.
+ *
+ * Get the collection run URL with environment:
+ *   1. Choose the collection → Click three dots → Run collection.
+ *   2. Choose the environment on the top right corner.
+ *   3. Copy the collection run URL (contains the environment_id).
+ *
+ * Get the environment_id manually:
+ *   1. Click on Environments.
+ *   2. Choose the environment.
+ *   3. Click on the Info button (top right) to get the environment_id.
+ *
+ * Run a collection with an environment.
+ *   postman collection run collection_id -e environment_id
+ */
