@@ -1,10 +1,1 @@
 # Publishing An Html Report In Jenkins Jenkinsfile
-
-"""
->>>>
->>>>
->>>>
->>>>
->>>>
->>>>
-"""

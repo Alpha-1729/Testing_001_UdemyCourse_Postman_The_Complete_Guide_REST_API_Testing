@@ -1,10 +1,1 @@
 # Troubleshooting Failed Builds With Reports
-
-"""
->>>>
->>>>
->>>>
->>>>
->>>>
->>>>
-"""

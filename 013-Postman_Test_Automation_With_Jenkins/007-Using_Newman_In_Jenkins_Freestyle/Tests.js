@@ -1,13 +1,10 @@
 /*
->>>> Create a job in freestyle method.
-        Open build steps and select execute shell.
-        Use secret text to store the postman api key.
-            newman --version
-            // Put url in double quotes.
-            newman run "https://api.postman.com/collections/34609578-70fa0f48-0a4d-423f-94ce-95279925788a?apikey=$POSTMAN_API_KEY"
-
->>>>
->>>>
->>>>
->>>>
-*/
+ * Create a Freestyle job in Jenkins.
+ *   - Open Build Steps → Select Execute Shell.
+ *   - Use Secret Text to store the Postman API key.
+ *   - Add the following commands:
+ *       newman --version
+ *       newman run "https://api.postman.com/collections/[collection_id]?apikey=$POSTMAN_API_KEY"
+ *
+ * ⚠️ Always wrap the URL in double quotes.
+ */

@@ -1,10 +1,8 @@
 /*
->>>> This section focuses on integrating postman cli and newman in the most popular continuous integration server, jenkins.
->>>> Why automation with CI/CD is important.
-        Every time a developer makes changes, we need to run the api tests.
-        Jenkins can monitor the code for changes, and run the test when needed.
-
->>>>
->>>>
->>>>
-*/
+ * This section focuses on integrating Postman CLI and Newman
+ * with Jenkins, the most popular CI/CD server.
+ *
+ * Why automation with CI/CD is important:
+ *   - Every time a developer makes changes, API tests need to be run.
+ *   - Jenkins can monitor code for changes and run tests automatically.
+ */

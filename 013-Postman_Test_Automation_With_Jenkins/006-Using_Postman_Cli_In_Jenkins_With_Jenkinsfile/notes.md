@@ -1,10 +1,1 @@
 # Using Postman Cli In Jenkins With Jenkinsfile
-
-"""
->>>>
->>>>
->>>>
->>>>
->>>>
->>>>
-"""

@@ -1,15 +1,10 @@
 /*
->>>> Jenkins file is attached in the current folder.
->>>> View the HTML report.
-        Click on build now.
-        Open the logs -> Workspaces -> newman -> report.html
->>>> Configure Job to view the HTML report on the main page.
-        Open the Job -> Configuration -> Pipeline
-        Add some more line in the Pipeline script.
-        Refer the jenkins file attached.
-            Last part (post block) added in the jenkins files is to show the report in the main page.
-        Build the job.
-        Refresh the page and you can see the report on the left pane.
->>>>
->>>>
-*/
+ * Jenkinsfile is attached in the current folder.
+ *
+ * View the HTML report:
+ *   Click Build Now → Open Logs → Workspaces → newman → report.html
+ *
+ * Configure job to show HTML report on the main page:
+ *   Job → Configuration → Pipeline → Add the post block from the attached Jenkinsfile.
+ *   Build the job → Refresh → Report will appear in the left pane.
+ */

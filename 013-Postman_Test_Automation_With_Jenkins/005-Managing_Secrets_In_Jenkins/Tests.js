@@ -1,7 +1,4 @@
 /*
->>>> Refer the gif attached.
->>>> Once a secret is added in jenkins. There is no option to see it again in the jenkins.
->>>>
->>>>
->>>>
-*/
+ * Refer the gif attached.
+ * ⚠️ Once a secret is added in Jenkins, there is no option to view it again.
+ */

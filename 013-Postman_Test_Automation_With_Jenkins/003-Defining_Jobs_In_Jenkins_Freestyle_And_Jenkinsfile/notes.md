@@ -1,10 +1,1 @@
 # Defining Jobs In Jenkins Freestyle And Jenkinsfile
-
-"""
->>>>
->>>>
->>>>
->>>>
->>>>
->>>>
-"""

@@ -1,10 +1,1 @@
 # Creating Postman Cli Jenkins Freestyle
-
-"""
->>>>
->>>>
->>>>
->>>>
->>>>
->>>>
-"""

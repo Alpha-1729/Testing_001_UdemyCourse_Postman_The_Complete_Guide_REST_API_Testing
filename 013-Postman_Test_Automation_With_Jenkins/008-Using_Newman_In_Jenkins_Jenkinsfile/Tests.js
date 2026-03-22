@@ -1,8 +1,4 @@
 /*
->>>> Create a job as a pipeline.
-        Jenkins file is attached in the current folder.
->>>>
->>>>
->>>>
->>>>
-*/
+ * Create a job as a Pipeline.
+ * Jenkinsfile is attached in the current folder.
+ */

@@ -1,7 +1,3 @@
 /*
->>>> Refer the jenkinsfile attached.
->>>>
->>>>
->>>>
->>>>
-*/
+ * Refer the Jenkinsfile attached.
+ */
