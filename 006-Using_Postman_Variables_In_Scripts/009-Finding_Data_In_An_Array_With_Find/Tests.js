@@ -1,41 +1,27 @@
 /*
->>>> Find
-        Reference Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
->>>>
->>>>
->>>>
->>>>
-*/
+ * find() — returns the first element that satisfies the condition, or undefined if not found.
+ * Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
+ */
 
 // Finding in a number array.
 const numbers = [2, 45, 66, 34, 43];
 
-let foundItem = numbers.find((item) => item === 45);
+const foundItem = numbers.find((item) => item === 45);
 
 if (foundItem) {
-    console.log('Found it');
+    console.log("Found it"); // "Found it"
 }
 
-// Finding in a object array.
+// Finding in an object array.
 const persons = [
-    {
-        name: 'Jake',
-        email: 'jake@gmail.com'
-    },
-    {
-        name: 'jose',
-        email: 'jose@gmail.com'
-    },
-    {
-        name: 'peter',
-        email: 'peter@gmail.com'
-    }
+    { name: "Jake", email: "jake@gmail.com" },
+    { name: "jose", email: "jose@gmail.com" },
+    { name: "peter", email: "peter@gmail.com" },
 ];
 
-let personFound = persons.find((person) => person.name === 'peter');
+const personFound = persons.find((person) => person.name === "peter");
 
 // Print the email of the found person.
 if (personFound) {
-    console.log(personFound.email);
+    console.log(personFound.email); // "peter@gmail.com"
 }
-

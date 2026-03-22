@@ -1,9 +1,8 @@
 /*
->>>>
->>>>
->>>>
->>>>
->>>>
+*
+*
+*
+*
 */
 
 // Checking the length of the array in the response.

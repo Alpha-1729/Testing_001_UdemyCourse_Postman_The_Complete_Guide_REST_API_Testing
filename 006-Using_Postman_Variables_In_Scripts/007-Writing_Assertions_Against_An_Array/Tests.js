@@ -1,18 +1,15 @@
 /*
->>>>
->>>>
->>>>
->>>>
->>>>
-*/
+ * Three ways to check if a created order ID exists in the orders list.
+ * Uses for loop, forEach, and Array.find() — each approach achieves the same result.
+ */
 
-// Test to check whether the created order id is in the orders list.
+// Using a for loop.
 pm.test("Created order is in the list", function () {
     const response = pm.response.json();
     let isOrderIdInResponse = false;
 
     for (let i = 0; i < response.length; i++) {
-        if (response[i].id === pm.collectionVariables.get('orderId')) {
+        if (response[i].id === pm.collectionVariables.get("orderId")) {
             isOrderIdInResponse = true;
         }
     }
@@ -20,13 +17,13 @@ pm.test("Created order is in the list", function () {
     pm.expect(isOrderIdInResponse).to.be.true;
 });
 
-// Using for each loop.
-pm.test("Created order is in the list using for each loop", function () {
+// Using forEach — cleaner syntax for iterating over arrays.
+pm.test("Created order is in the list using forEach", function () {
     const response = pm.response.json();
     let isOrderIdInResponse = false;
 
     response.forEach((order) => {
-        if (order.id === pm.collectionVariables.get('orderId')) {
+        if (order.id === pm.collectionVariables.get("orderId")) {
             isOrderIdInResponse = true;
         }
     });
@@ -34,10 +31,9 @@ pm.test("Created order is in the list using for each loop", function () {
     pm.expect(isOrderIdInResponse).to.be.true;
 });
 
-// Using find method.
-// find method will return the found item in the array.
-pm.test("Created order is in the list using find method", function () {
+// Using find — returns the matched item or undefined if not found.
+pm.test("Created order is in the list using find", function () {
     const response = pm.response.json();
-    let order = response.find((order) => order.id === pm.collectionVariables.get('orderId'));
-    pm.expect(order).to.be.an('object');
+    const order = response.find((order) => order.id === pm.collectionVariables.get("orderId"));
+    pm.expect(order).to.be.an("object");
 });

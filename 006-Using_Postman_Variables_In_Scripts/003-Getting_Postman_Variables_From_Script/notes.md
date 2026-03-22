@@ -1,10 +1,1 @@
 # Getting Postman Variables From Script
-
-"""
->>>>
->>>>
->>>>
->>>>
->>>>
->>>>
-"""

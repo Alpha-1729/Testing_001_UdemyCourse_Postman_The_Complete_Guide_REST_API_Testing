@@ -1,18 +1,16 @@
 /*
->>>> Dummy end point from postman.
-        GET postman-echo.com/get
->>>>
->>>>
->>>>
->>>>
-*/
+ * Managing collection variables — set, remove single, and remove all.
+ * Dummy endpoint for testing: GET postman-echo.com/get
+ */
+
+// Set a collection variable.
+pm.collectionVariables.set("name", "Jamie");
 
 // Remove a single collection variable.
-pm.collectionVariables.set('name', 'Jamie');
-pm.collectionVariables.unset('name');
+pm.collectionVariables.unset("name");
 
-// Remove all collection variables.
+// Remove ALL collection variables.
 pm.collectionVariables.clear();
 
-// This will also remove all the collection variable.
-pm.collectionVariables.clear('name');
+// Note: passing an argument to clear() has no effect — it still removes ALL variables.
+pm.collectionVariables.clear("name"); // same as pm.collectionVariables.clear()

@@ -1,10 +1,1 @@
 # Managing Datatypes In Postman Variable
-
-"""
->>>>
->>>>
->>>>
->>>>
->>>>
->>>>
-"""

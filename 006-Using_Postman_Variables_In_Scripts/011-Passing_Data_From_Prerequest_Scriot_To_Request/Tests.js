@@ -1,14 +1,11 @@
 /*
->>>>
->>>>
->>>>
->>>>
->>>>
-*/
+ * Generate a random number and store it as a collection variable.
+ * Used to pass a dynamic value (e.g. quantity) into the request body.
+ */
 
 function getRandomNumber(maxValue) {
-    return Math.floor(Math.random() * maxValue);
+    return Math.floor(Math.random() * maxValue); // returns a random integer between 0 and maxValue - 1
 }
 
-// This collection variable will be used in the body of the request.
-pm.collectionVariables.set('randomQuantity', getRandomNumber(14));
+// Set the collection variable — used in the request body as {{randomQuantity}}.
+pm.collectionVariables.set("randomQuantity", getRandomNumber(14)); // random number between 0 and 13

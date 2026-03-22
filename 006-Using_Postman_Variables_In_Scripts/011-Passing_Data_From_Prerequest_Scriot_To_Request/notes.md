@@ -1,10 +1,1 @@
 # Passing Data From Prerequest Scriot To Request
-
-"""
->>>>
->>>>
->>>>
->>>>
->>>>
->>>>
-"""

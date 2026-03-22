@@ -1,0 +1,3 @@
+# Passing Data From One Request To Other
+
+- Passing data from one request to another is implemented using the postman variable.

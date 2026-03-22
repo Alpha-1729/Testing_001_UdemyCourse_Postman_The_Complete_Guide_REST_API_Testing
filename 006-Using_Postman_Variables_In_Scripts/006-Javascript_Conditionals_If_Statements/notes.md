@@ -1,10 +1,1 @@
 # Javascript Conditionals If Statements
-
-"""
->>>>
->>>>
->>>>
->>>>
->>>>
->>>>
-"""

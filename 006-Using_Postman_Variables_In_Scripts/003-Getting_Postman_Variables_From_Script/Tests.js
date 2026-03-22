@@ -1,9 +1,8 @@
 /*
->>>>
->>>>
->>>>
->>>>
->>>>
+*
+*
+*
+*
 */
 
 // Getting the collection variable.

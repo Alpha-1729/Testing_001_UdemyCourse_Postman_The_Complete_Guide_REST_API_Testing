@@ -1,9 +1,8 @@
 /*
->>>>
->>>>
->>>>
->>>>
->>>>
+*
+*
+*
+*
 */
 
 // After running the request, new collection variable will be created.

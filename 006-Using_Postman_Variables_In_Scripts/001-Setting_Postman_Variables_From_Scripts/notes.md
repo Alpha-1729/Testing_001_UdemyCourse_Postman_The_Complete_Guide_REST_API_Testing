@@ -1,10 +1,1 @@
 # Setting Postman Variables From Scripts
-
-"""
->>>>
->>>>
->>>>
->>>>
->>>>
->>>>
-"""
