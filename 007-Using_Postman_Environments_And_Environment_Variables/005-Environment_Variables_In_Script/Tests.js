@@ -1,19 +1,16 @@
 /*
->>>> If you don't select any environment, you may get unpredictable results.
->>>>
->>>>
->>>>
->>>>
-*/
+ * Always select an environment before running requests.
+ * Without a selected environment, environment variable operations may give unpredictable results.
+ */
 
-// Adding an environment variable.
-pm.environment.set('firstName', 'Jamie');
+// Set an environment variable.
+pm.environment.set("firstName", "Jamie");
 
-// Getting the value of the environment variable.
-console.log(pm.environment.get('firstName'));
+// Get an environment variable.
+console.log(pm.environment.get("firstName")); // "Jamie"
 
-// Remove the environment variable.
-pm.environment.unset('firstName' );
+// Remove a single environment variable.
+pm.environment.unset("firstName");
 
-// Clear all the environment variable.
+// Clear all environment variables.
 pm.environment.clear();

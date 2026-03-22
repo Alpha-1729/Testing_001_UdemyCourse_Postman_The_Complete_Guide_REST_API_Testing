@@ -1,20 +1,18 @@
 /*
->>>> We cannot change the environment from the script.
->>>> While adding a variable in the environment. There is a type column in the grid.
-        It contains two values default and secret.
-        Secret option is to just hide the credentials like accessToken in the variable.
-        It will be marked with dots.
->>>>
->>>>
->>>>
-*/
+ * Environment cannot be changed from a script — only manually in Postman.
+ *
+ * Variable types in environment.
+ *   - default — visible plain text value.
+ *   - secret  — hides the value with dots (used for credentials like accessToken).
+ */
 
-// Printing the environment name.
-// If no environment is selected, it's value will be undefined.
+// Print the currently active environment name.
+// Returns undefined if no environment is selected.
 console.log(pm.environment.name);
 
-if (pm.environment.name === 'Production') {
-    pm.test('Status code is 400', () => {
+// Conditionally run a test based on the active environment.
+if (pm.environment.name === "Production") {
+    pm.test("Status code is 400", () => {
         pm.response.to.have.status(400);
     });
 }

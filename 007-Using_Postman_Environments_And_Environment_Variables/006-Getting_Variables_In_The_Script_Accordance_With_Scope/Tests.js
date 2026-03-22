@@ -1,14 +1,11 @@
 /*
->>>>
->>>>
->>>>
->>>>
->>>>
-*/
+ * pm.variables.get() — resolves a variable by scope precedence.
+ * Scope order (highest to lowest): environment → collection → global
+ * If the same variable exists in both environment and collection, environment value is returned.
+ */
 
-// If environment variable and collection variable exists, it will return the environment variable.
-// Here we get the variable based on the scope. (Environment first then collection variable.)
-console.log(pm.variable.get('baseUrl'));
+// Returns the environment variable if it exists, otherwise falls back to collection variable.
+console.log(pm.variables.get("baseUrl"));
 
-// Always use environment variable for storing the variable.
-pm.environment.set('productId', 4632);
+// Best practice — always store variables at the environment level.
+pm.environment.set("productId", 4632);

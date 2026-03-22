@@ -1,21 +1,25 @@
 /*
->>>> Global variables will be available for all requests and collections in a workspace.
->>>> If we have a variable in collection, environment and global level.
-		pm.variables.get() will give the environment varible.
->>>> If there is only the variable in the global scope.
-		pm.variables.get() will give the global variable
->>>>
->>>>
-*/
+ * Global variables — available across all requests and collections in a workspace.
+ *
+ * pm.variables.get() scope resolution order (highest → lowest precedence).
+ *   1. Environment variable
+ *   2. Collection variable
+ *   3. Global variable
+ *
+ * If the same variable exists in environment, collection, and global —
+ *   pm.variables.get() returns the environment variable.
+ * If the variable exists only in global scope —
+ *   pm.variables.get() returns the global variable.
+ */
 
-// Adding a global variable.
-pm.globals.set('firstName', 'Jamie');
+// Set a global variable.
+pm.globals.set("firstName", "Jamie");
 
-// Getting the value of the global variable.
-console.log(pm.globals.get('firstName'));
+// Get a global variable.
+console.log(pm.globals.get("firstName")); // "Jamie"
 
-// Remove the global variable.
-pm.globals.unset('firstName' );
+// Remove a single global variable.
+pm.globals.unset("firstName");
 
-// Clear all the global variable.
+// Clear all global variables.
 pm.globals.clear();

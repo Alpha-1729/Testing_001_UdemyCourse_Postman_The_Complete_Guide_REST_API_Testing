@@ -1,10 +1,1 @@
 # Getting Variables In The Script Accordance With Scope
-
-"""
->>>>
->>>>
->>>>
->>>>
->>>>
->>>>
-"""
