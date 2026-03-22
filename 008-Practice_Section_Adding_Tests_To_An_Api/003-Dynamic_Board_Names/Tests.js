@@ -1,8 +1,4 @@
 /*
->>>> BoardName in the param should be like this.
-        Learning Postman {{boardNumber}}
->>>>
->>>>
->>>>
->>>>
-*/
+ * Board name used in the request param.
+ *   Learning Postman {{boardNumber}}
+ */

@@ -1,10 +1,1 @@
 # Working With Complex Data Structures In Postman Variables
-
-"""
->>>>
->>>>
->>>>
->>>>
->>>>
->>>>
-"""
