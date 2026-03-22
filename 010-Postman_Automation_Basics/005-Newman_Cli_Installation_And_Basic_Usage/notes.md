@@ -1,10 +1,1 @@
 # Newman Cli Installation And Basic Usage
-
-"""
->>>>
->>>>
->>>>
->>>>
->>>>
->>>>
-"""

@@ -1,13 +1,14 @@
 /*
->>>> Scheduled run is executed in Postman cloud.
->>>> Always set the initial value with the current value before executing the scheduled runs.
-        Else all test will fail, because postman cloud doesn't have access to the current values in the collection variable.
-        See the attached gif to update all initial value with the current value.
->>>> To view/pause/delete the scheduled run.
-        Click edit button on the Collection.
-        Click on the Runs.
-        Click on Scheduled.
-        Click on three dots and pause/delete the scheduled run.
->>>>
->>>>
-*/
+ * Scheduled Run — executed in Postman Cloud, not locally.
+ *
+ * ⚠️ Always set the Initial Value = Current Value before executing scheduled runs.
+ *    Postman Cloud only reads Initial Values, not Current Values.
+ *    Else all tests will fail.
+ *    See the attached gif to update all initial values with the current value.
+ *
+ * To view / pause / delete a scheduled run:
+ *   1. Click Edit button on the Collection.
+ *   2. Click on Runs.
+ *   3. Click on Scheduled.
+ *   4. Click on three dots → pause / delete the scheduled run.
+ */

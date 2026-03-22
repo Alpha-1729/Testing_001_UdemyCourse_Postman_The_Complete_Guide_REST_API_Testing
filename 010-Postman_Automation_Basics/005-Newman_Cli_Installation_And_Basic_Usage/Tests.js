@@ -1,21 +1,22 @@
 /*
->>>> Newman
-        It is a tool that can run Postman collection.
-        It is created by postman.
->>>> Steps to use Newman
-        Install LTS version of nodejs.
-            Reference Link: https://nodejs.org/en
-        Install newman
-            npm install -g newman
-            newman --version
-        Running postman collection using newman
-            newman run collection_shared_url
-            See the gif for getting collection_shared_url.
-        
->>>> Newman Installation.
-        Reference Link: https://github.com/postmanlabs/newman#installation
->>>> Adding the NodeJs and Newpath environment variable.
-        NodeJS: C:\Program Files\nodejs
-        Newman: C:\Users\YOURUSERNAME\AppData\Roaming\npm
->>>>
-*/
+ * Newman
+ * A CLI tool created by Postman to run Postman collections.
+ * Reference Link : https://github.com/postmanlabs/newman#installation
+ *
+ * Steps to use Newman:
+ *
+ *   1. Install LTS version of Node.js.
+ *      Reference Link : https://nodejs.org/en
+ *
+ *   2. Install Newman.
+ *      npm install -g newman
+ *      newman --version
+ *
+ *   3. Run a Postman collection.
+ *      newman run collection_shared_url
+ *      See the gif for getting collection_shared_url.
+ *
+ * Adding Environment Variables:
+ *   Node.js : C:\Program Files\nodejs
+ *   Newman  : C:\Users\YOURUSERNAME\AppData\Roaming\npm
+ */

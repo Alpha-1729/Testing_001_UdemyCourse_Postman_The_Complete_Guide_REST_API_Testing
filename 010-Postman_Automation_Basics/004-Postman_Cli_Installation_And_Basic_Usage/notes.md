@@ -1,10 +1,1 @@
 # Postman Cli - Installation And Basic Usage
-
-"""
->>>>
->>>>
->>>>
->>>>
->>>>
->>>>
-"""

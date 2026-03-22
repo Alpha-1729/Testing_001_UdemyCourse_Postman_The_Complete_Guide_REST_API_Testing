@@ -1,10 +1,1 @@
 # Running Postman Collection As Part Of Ci Cd
-
-"""
->>>>
->>>>
->>>>
->>>>
->>>>
->>>>
-"""
