@@ -1,14 +1,14 @@
 {
     "section": {
         "prefix": "",
-        "number": 17,
-        "latest": "016-Data_Driven_Tests_Running_A_Request_Multiple_Times_With_Different_Data_Sets"
+        "number": 18,
+        "latest": "017-Mock_Servers"
     },
     "template": {
         "prefix": "",
-        "number": 4,
-        "section": "016-Data_Driven_Tests_Running_A_Request_Multiple_Times_With_Different_Data_Sets",
-        "latest": "003-Using_External_Data_Files_Writing_Tests",
+        "number": 7,
+        "section": "017-Mock_Servers",
+        "latest": "006-Known_Limitations",
         "pre-run-command": ""
     },
     "run-command": "",

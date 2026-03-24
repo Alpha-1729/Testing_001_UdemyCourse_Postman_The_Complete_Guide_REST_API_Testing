@@ -6,9 +6,9 @@
  *   Import the file in Postman and view the code in the pre-request script and script.
  */
 
-var iterationData = pm.environment.get("iterationData");
+var companies = pm.environment.get("companies");
 
-if (iterationData && iterationData.length > 0) {
+if (companies && companies.length > 0) {
     postman.setNextRequest("Create company");
 } else {
     postman.setNextRequest(null);
