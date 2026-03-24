@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-# Script to create a template.
+# Script to create a template from previous template.
 
 import os
 import json
 import shutil
 from pathlib import Path
+import mimetypes
 
 # Change dir to two directories up.
 os.chdir(Path(__file__).parents[2])
@@ -18,6 +19,9 @@ with open(config_json_path, "r") as config_file:
 latest_section = config_data["section"]["latest"]
 
 pre_run_command = config_data["template"]["pre-run-command"]
+
+copy_previous = config_data["copy-previous"]
+ignored_files = config_data["ignored-files"]
 
 template_prefix = config_data["template"]["prefix"]
 template_prefix = f"-{template_prefix}" if len(template_prefix.strip()) > 0 else ""
@@ -44,14 +48,45 @@ template_path = (
     else default_template_path
 )
 
-# Moving all the content from the selected template folder to the destination.
 shutil.copytree(template_path, destination_path)
+
+# Loop through copy-previous folders to copy from the previous template
+previous_template_path = os.path.join(
+    os.getcwd(), latest_section, config_data["template"]["latest"]
+)
+
+
+# Define the ignore function to filter out ignored files
+def ignore_files(src, names):
+    return [name for name in names if name in ignored_files]
+
+
+for folder in copy_previous:
+    delete_folder_path = os.path.join(destination_path, folder)
+    if os.path.isdir(delete_folder_path):
+        shutil.rmtree(delete_folder_path)
+
+for folder in copy_previous:
+    folder_from_previous = os.path.join(previous_template_path, folder)
+    folder_to_copy = os.path.join(destination_path, folder)
+
+    if os.path.isdir(folder_from_previous):
+        # If the folder exists in the previous template, copy it to the new destination
+        shutil.copytree(folder_from_previous, folder_to_copy, ignore=ignore_files)
 
 # Looping through destination directory and replacing placeholders in scripts.
 for root_dir, sub_dir, file_list in os.walk(destination_path):
     if file_list:
         for file in file_list:
             full_file_path = os.path.join(root_dir, file)
+
+            mime_type = mimetypes.guess_type(full_file_path)[0]
+            is_binary = mime_type is None or not mime_type.startswith(
+                "text/"
+            )  # No MIME type detected (likely binary)  # Not a text file
+
+            if is_binary:
+                continue
 
             # Read the content in the file and replace placeholders.
             with open(full_file_path, errors="ignore") as in_file:
@@ -72,4 +107,5 @@ with open(config_json_path, "w") as config_file:
 # Executing pre-run command.
 if os.path.exists(destination_path) and pre_run_command:
     os.chdir(destination_path)
+    print(os.getcwd())
     os.system(pre_run_command)
