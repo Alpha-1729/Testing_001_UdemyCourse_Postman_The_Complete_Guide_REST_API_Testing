@@ -5,4 +5,3 @@
   - Reference Link: <https://github.com/vdespa/postman-testing-file-uploads>
 - When running the newman in the docker mac.
   - Replace the localhost with docker.for.mac.localhost by editing the collection file.
--

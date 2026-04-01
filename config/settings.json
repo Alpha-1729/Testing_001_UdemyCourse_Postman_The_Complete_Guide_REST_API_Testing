@@ -1,14 +1,14 @@
 {
     "section": {
         "prefix": "",
-        "number": 18,
-        "latest": "017-Mock_Servers"
+        "number": 20,
+        "latest": "019-Advanced_Topics_And_User_Questions"
     },
     "template": {
         "prefix": "",
-        "number": 7,
-        "section": "017-Mock_Servers",
-        "latest": "006-Known_Limitations",
+        "number": 8,
+        "section": "019-Advanced_Topics_And_User_Questions",
+        "latest": "007-Json_Schema_Validation_In_Postman",
         "pre-run-command": ""
     },
     "run-command": "",
